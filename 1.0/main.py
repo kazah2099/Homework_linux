@@ -1,5 +1,5 @@
-from utils1 import add_task, show_tasks, delete_task
-from config1 import APP_NAME, VERSION
+from utils import add_task, show_tasks, delete_task
+from config import APP_NAME, VERSION
 
 def main():
     print(f"=== {APP_NAME} ===")
@@ -30,3 +30,4 @@ def main():
 
 
 main()
+
